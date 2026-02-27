@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>One-Shot URL Shortener</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>One-Shot URL Shortener</h1>
+        <p>Your Project ID: A2-B4-C6</p>
+        
+        <div class="create-box">
+            <h2>Create New One-Shot Link</h2>
+            <input type="url" id="longUrl" placeholder="Enter your long URL" required>
+            <button onclick="createLink()">Create Link</button>
+            <div id="result"></div>
+        </div>
+
+        <div class="links-box">
+            <h2>Your Active One-Shot Links</h2>
+            <div id="linksList"></div>
+        </div>
+
+        <div class="stats-box">
+            <h2>Click Milestones</h2>
+            <div id="milestones"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
